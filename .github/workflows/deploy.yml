@@ -16,7 +16,7 @@ jobs:
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v1.0.0
         with:
-          host: 52.66.166.251 # <-- Replace with your actual public IP
+          host: 13.235.244.3 # ← Your public Lightsail IP
           username: bitnami
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
